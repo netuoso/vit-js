@@ -316,6 +316,11 @@ export default [
     },
     {
       "api": "database_api",
+      "method": "get_content_replies_paginated",
+      "params": ["author", "permlink", "start_comment_author", "start_comment_permlink", "limit"]
+    },
+    {
+      "api": "database_api",
       "method": "get_discussions_by_author_before_date",
       "params": ["author", "startPermlink", "beforeDate", "limit"]
     },
